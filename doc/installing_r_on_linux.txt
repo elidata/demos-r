@@ -1,0 +1,10 @@
+In order to install R on Linux you usually need to install a couple of packages
+via your regular package manager of your distro.
+
+On Ubuntu you need the following packages:
+	'r-base-core' <- this is the real R language
+	'r-doc-pdf', <- documentation in pdf format
+	'r-doc-html', <- documentation in html format
+	'r-doc-info' <- documentation in info format
+
+On windows just install the executable.

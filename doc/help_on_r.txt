@@ -1,0 +1,4 @@
+- help() function in R.
+- ? and ?? in R.
+- html, info and pdfs that come with R.
+- Internet, ofcourse.

@@ -1,0 +1,9 @@
+To install rstudio for Linux you need to get it from http://www.rstudio.com
+
+This is the current url:
+	http://download1.rstudio.org/rstudio-0.98.1091-amd64.deb
+
+Just install the deb package.
+I had an issue with a missing package called 'libjpeg62' which I installed.
+
+To run rstudio use: rstudio

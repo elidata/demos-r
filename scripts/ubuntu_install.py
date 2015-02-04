@@ -9,6 +9,9 @@ import subprocess # for check_call
 
 packs=[
 	'r-base-core',
+	'r-doc-info',
+	'r-doc-html',
+	'r-doc-pdf',
 
 	# from my own repo
 	'templar',
