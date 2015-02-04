@@ -5,6 +5,18 @@
 # NOTES:
 # - '&' and '|' are long evaluations while '&&' and '||' are short circuit ones.
 
+# is.logical knows about logical values
+cat("is.logical(TRUE) is", is.logical(TRUE), "\n")
+cat("is.logical(FALSE) is", is.logical(FALSE), "\n")
+cat("is.logical(3.1415) is", is.logical(3.1415), "\n")
+cat("is.logical(-1) is", is.logical(-1), "\n")
+cat("is.logical(1) is", is.logical(1), "\n")
+cat("is.logical(0) is", is.logical(0), "\n")
+cat("is.logical(\"mark\") is", is.logical("mark"), "\n")
+cat("is.logical(c(TRUE, FALSE)) is", is.logical(c(TRUE, FALSE)), "\n")
+cat("is.logical(c(FALSE, TRUE)) is", is.logical(c(FALSE, TRUE)), "\n")
+cat("is.logical(c(TRUE, 4)) is", is.logical(c(TRUE, 4)), "\n")
+
 # you can also use 'TRUE' if you like...:)
 x <- FALSE
 cat(x, "\n")

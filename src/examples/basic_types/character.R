@@ -11,6 +11,9 @@
 # References:
 # http://stat.ethz.ch/R-manual/R-devel/library/base/html/Quotes.html
 
+y <- "a string of characters"
+is.character(y)
+
 # double quotes for character type is fine
 x <- "mark"
 cat(x, "\n")
