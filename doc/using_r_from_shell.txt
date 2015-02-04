@@ -1,0 +1,6 @@
+Just use the R executable and you'll get an R interactive session.
+
+When you use R from the shell and exit R will offer to save all your
+workspace data. This will be saved in $CWD/.RData. This may be large
+if you are processing large amounts of data. This is great for
+statistical ongoing work.
