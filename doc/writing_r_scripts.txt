@@ -1,0 +1,13 @@
+Here is how to write R scripts:
+- open any text editor of your pleasing and write your script
+- save it to a file with the suffix .R (convention only).
+- run it via 'Rscript myfile.R'
+
+On Linux/Unix
+=============
+You can turn you script into a real executable file by:
+1) making it executable (chmod +x [myfile.R])
+2) adding a SHEBANG first line to it. Either:
+	#!/usr/bin/Rscript
+	or
+	#!/usr/bin/env Rscript
