@@ -11,3 +11,8 @@ x=6
 x
 print(x)
 typeof(x)
+
+x <- 6
+x
+print(x)
+typeof(x)
