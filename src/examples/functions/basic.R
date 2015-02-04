@@ -1,11 +1,21 @@
 #!/usr/bin/Rscript
 
-sayHello <- function(){
+# This example explores functions in R
+
+# This is the most simple function, only made of statements
+sayHello <- function() {
 	print('hello world!\n')
 }
 sayHello()
 
-foo function() {
-	print('foo\n')
+# if the function ends with an expression it is it's return value
+add <- function(x, y) {
+	x+y
 }
-foo()
+add(5, 9)
+
+# you can also use the 'return' statement
+sub <- function(x, y) {
+	return(x-y)
+}
+sub(9, 5)
