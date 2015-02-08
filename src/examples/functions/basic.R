@@ -6,6 +6,7 @@
 sayHello <- function() {
 	print('hello world!\n')
 }
+cat("class of the function is", class(sayHello), "\n")
 sayHello()
 
 # if the function ends with an expression it is it's return value
