@@ -31,3 +31,13 @@ cat("Another way to print a list\n")
 for (n in 1:length(x)) {
 	cat(x[[n]], "\n")
 }
+
+cat("List with names\n")
+x <- list(one=c(4,5,6), two=TRUE, three="one")
+cat("x$one is", x$one, "\n")
+cat("x$two is", x$two, "\n")
+cat("x$three is", x$three, "\n")
+cat(str(x))
+for (y in x) {
+	cat(y, "\n")
+}
