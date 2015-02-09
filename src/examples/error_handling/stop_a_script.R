@@ -10,6 +10,8 @@
 for (i in 1:100) {
 	print(i)
 	if (i==3) {
-		stop(NULL)
+		stop()
+		# stop(NULL)
+		# stop("this is the reason")
 	}
 }
