@@ -9,7 +9,9 @@
 # http://www.statmethods.net/graphs/bar.html
 
 # This means that all output will go to '/tmp/output.pdf'
-pdf("/tmp/output.pdf")
+#pdf("/tmp/output.pdf")
+svg("/tmp/output.svg")
+# png is worse than pdf, less compressed and less resolution
 #png("/tmp/output.png")
 
 # lets plot something

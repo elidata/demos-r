@@ -31,12 +31,13 @@ fit <- kmeans(mydata, 5) # 5 cluster solution
 # get cluster means 
 aggregate(mydata,by=list(fit$cluster),FUN=mean)
 # append cluster assignment
-mydata <- data.frame(mydata, fit$cluster)
-print(mydata)
+mtcars <- data.frame(mtcars, fit$cluster)
+print(mtcars)
 
 # Ward Hierarchical Clustering
 d <- dist(mydata, method = "euclidean") # distance matrix
-fit <- hclust(d, method="ward.D2") 
+fit <- hclust(d) 
+#fit <- hclust(d, method="ward.D2") 
 plot(fit) # display dendogram
 groups <- cutree(fit, k=5) # cut tree into 5 clusters
 # draw dendogram with red borders around the 5 clusters 
