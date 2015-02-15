@@ -8,14 +8,19 @@ ubuntu to compile and work with this package.
 import subprocess # for check_call
 
 packs=[
+	# for building from my own repo
+	'templar',
+	'pdmt',
+
+	# R core
 	'r-base-core',
 	'r-doc-info',
 	'r-doc-html',
 	'r-doc-pdf',
 
-	# from my own repo
-	'templar',
-	'pdmt',
+	# R packages
+	'r-cran-sm',
+	'r-cran-plotrix',
 ]
 
 args=['sudo','apt-get','install','--assume-yes']
