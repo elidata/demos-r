@@ -20,7 +20,9 @@ X11()
 # with attach
 attach(mtcars)
 plot(wt, mpg)
-abline(lm(mpg~wt))
+model <- lm(mpg~wt)
+print(model)
+abline(model)
 title("Regression of MPG on Weight")
 waitForInput()
 

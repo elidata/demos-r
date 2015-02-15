@@ -10,6 +10,7 @@
 
 # This means that all output will go to '/tmp/output.pdf'
 pdf("/tmp/output.pdf")
+#png("/tmp/output.png")
 
 # lets plot something
 plot(mtcars$wt, mtcars$mpg)
