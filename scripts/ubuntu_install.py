@@ -21,6 +21,7 @@ packs=[
 	# R packages
 	'r-cran-sm',
 	'r-cran-plotrix',
+	'r-cran-snow',
 ]
 
 args=['sudo','apt-get','install','--assume-yes']

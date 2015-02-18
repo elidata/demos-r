@@ -1,0 +1,21 @@
+#!/usr/bin/Rscript
+
+library(snow)
+c1 <- makeCluster(c("localhost", "localhost"), type = "SOCK")
+
+sum_from_to <- function(v) {
+	from=v[1]
+	to=v[2]
+	ret <- 0
+	for (x in from:to) {
+		if (x%/%2==0) {
+			ret <- ret + x*x
+		} else {
+			ret <- ret - x*x
+		}
+	}
+	return(ret)
+}
+
+v <- c(c(1,500000), c(500000,1000000))
+v=lapply(v, hello)
